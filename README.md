@@ -6,7 +6,7 @@
 
 ## Demo
 
-Trained Neural Network deployed on [GestureAI-iOS, iOS 11 app using CoreML](https://github.com/akimach/GestureAI-iOS) :
+Trained Neural Network deployed on [GestureAI-iOS, iOS 11 app using CoreML](https://github.com/seashoo/GestureAI-iOS) :
 
 ![demo](images/demo.gif)
 
@@ -16,7 +16,7 @@ You can use direct links to download the dataset.
 
 |Name|Examples|Size|Link|MD5 Checksum|
 |:-:|:-:|:-:|:-:|:-:|
-|`gesture-3axis-accel.tar.gz`|1,000|338 KBytes|[Download](https://github.com/akimach/GestureAI/blob/master/datasets/gesture-3axis-accel.tar.gz?raw=true)|`37664771fd60e930033fb24387fb1601 `|
+|`gesture-3axis-accel.tar.gz`|1,000|338 KBytes|[Download](https://github.com/seashoo/GestureAI/blob/master/datasets/gesture-3axis-accel.tar.gz?raw=true)|`37664771fd60e930033fb24387fb1601 `|
 
 ## Labels
 
@@ -45,7 +45,7 @@ The dataset consists of 1,000 3-axis acceleration sequences of 5 gesture classes
 ```
 $ virtualenv venv
 $ source venv/bin/activate
-$ git clone https://github.com/akimach/GestureAI.git
+$ git clone https://github.com/seashoo/GestureAI.git
 $ cd GestureAI
 $ pip install -r requirements.txt
 ```
@@ -60,8 +60,4 @@ Try with Jupyter notebook!
 
 ## Licence
 
-[MIT](https://github.com/akimach/GestureAI/blob/master/LICENSE)
-
-## Author
-
-[Akimasa KIMURA](https://github.com/akimach)
+[MIT](https://github.com/seashoo/GestureAI/blob/master/LICENSE)
